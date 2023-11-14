@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,700&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: url(img/gym1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: rgb(230, 14, 14);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(62, 69, 69);
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: whitesmoke
+
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: rgb(185, 232, 232);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: rgb(127, 9, 56);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: skyblue;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+}
+.article .btn:hover{
+    background-color: rgb(84, 57, 111);
+    transition: 0.5s ease;
+}
